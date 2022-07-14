@@ -73,6 +73,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Heroku Deployment
 
+    https://git.heroku.com/baroque-gerard-51956.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
