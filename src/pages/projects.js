@@ -1,42 +1,130 @@
 import React from "react";
 // import { Link } from "react-router-dom";
+import Image from "../assets/crypt.png";
+import Image1 from "../assets/foodapp.jpg";
+import Image2 from "../assets/icecreamapp.PNG";
+const styles = {
+  meltedcone: {
+    height: "20rem",
+    width: "20rem",
+  },
+  card: {
+    maxWidth: "28rem",
+  },
+};
 
 export default function projects() {
   return (
     <div>
       <h2>Past Projects</h2>
-      <div className="proj1">
-        <h5> Everything But the Kitchen Sink </h5>
-        <p> Recipe App that uses selected ingredients you have on-hand </p>
-      </div>
 
-      <div className="proj2">
-        <h5> Crypt Keepers </h5>
-        <p> Cryptocurrency Learning Site</p>
-      </div>
-
-      <div className="proj3">
-        <h5> COMING SOON: Ain't Life Sweet? </h5>
-        <p> E-commerce site for selling ice cream </p>
-      </div>
-
-      <div className="classproj">
-        <h5> In-Class Projects - 1: Weather App </h5>
-        <h5> In-Class Projects - 2: Tolkien Quiz </h5>
-        <h5> In-Class Projects - 3: Express Note Taker </h5>
-      </div>
-
-      {/* <div className="cardcontainer d-flex flex-wrap justify-content-evenly">
-        <div className="card m-5 p-2" style={{ width: "18rem" }}>
-          <img src={process.env.PUBLIC_URL + "rkpic.jpg"} alt="proj1">
-            {" "}
-          </img>
+      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+        <div
+          style={styles.card}
+          className="card align-items-center text-center"
+        >
+          <img style={styles.foodapp} src={Image1} className="card-img-top" />
           <div className="card-body">
-            <h5 className="card-title"> PROJECT NAME </h5>
-            <p className="card-text"></p>
+            <h3 className="card-title"> Everything But the Kitchen Sink </h3>
+            <p className="card-text">
+              Recipe App that uses selected ingredients you have on-hand.
+            </p>
+          </div>
+
+          <div className="card-body">
+            <a className="card-link"> Link to Site </a>
           </div>
         </div>
-      </div> */}
+      </div>
+
+      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+        <div
+          style={styles.card}
+          className="card align-items-center text-center"
+        >
+          <img style={styles.crypt} src={Image} className="card-img-top" />
+          <div className="card-body">
+            <h3 className="card-title"> Crypt Keepers </h3>
+            <p className="card-text"> Cryptocurrency Learning Site </p>
+          </div>
+
+          <div className="card-body">
+            <a className="card-link"> Link to Site </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+        <div
+          style={styles.card}
+          className="card align-items-center text-center"
+        >
+          <img
+            style={styles.icecreamapp}
+            src={Image2}
+            className="card-img-top"
+          />
+          <div className="card-body">
+            <h3 className="card-title"> The Melted Cone </h3>
+            <p className="card-text">E-commerce site for selling ice cream. </p>
+          </div>
+
+          <div className="card-body">
+            <a className="card-link"> Link to Site </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+        <div
+          style={styles.card}
+          className="card align-items-center text-center"
+        >
+          {/* <img style={styles.scoop} src={Image} className="card-img-top" /> */}
+          <div className="card-body">
+            <h3 className="card-title"> PROJECT - 1 </h3>
+            <p className="card-text">Weather Search App</p>
+          </div>
+
+          <div className="card-body">
+            <a className="card-link"> Link to Site </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+        <div
+          style={styles.card}
+          className="card align-items-center text-center"
+        >
+          {/* <img style={styles.scoop} src={Image} className="card-img-top" /> */}
+          <div className="card-body">
+            <h3 className="card-title"> PROJECT - 2 </h3>
+            <p className="card-text">Tolkien Quiz</p>
+          </div>
+
+          <div className="card-body">
+            <a className="card-link"> Link to Site </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+        <div
+          style={styles.card}
+          className="card align-items-center text-center"
+        >
+          {/* <img style={styles.scoop} src={Image} className="card-img-top" /> */}
+          <div className="card-body">
+            <h3 className="card-title"> PROJECT - 3 </h3>
+            <p className="card-text"> Express Note Taker </p>
+          </div>
+
+          <div className="card-body">
+            <a className="card-link"> Link to Site </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
