@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/rkportfolio/static/css/main.104256ec.css",
+    "main.js": "/rkportfolio/static/js/main.ae1bbee7.js",
+    "static/media/crypt.png": "/rkportfolio/static/media/crypt.c8778250eaa3e01beae2.png",
+    "static/media/foodapp.jpg": "/rkportfolio/static/media/foodapp.be327859dcb2cceae798.jpg",
+    "static/media/6123633.jpg": "/rkportfolio/static/media/6123633.1c829124173add8ff412.jpg",
+    "static/media/rkpic.jpg": "/rkportfolio/static/media/rkpic.542cc14dde5b080bb24f.jpg",
+    "static/media/icecreamapp.PNG": "/rkportfolio/static/media/icecreamapp.f69fd52729127684126f.PNG",
+    "index.html": "/rkportfolio/index.html",
+    "main.104256ec.css.map": "/rkportfolio/static/css/main.104256ec.css.map",
+    "main.ae1bbee7.js.map": "/rkportfolio/static/js/main.ae1bbee7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.104256ec.css",
+    "static/js/main.ae1bbee7.js"
+  ]
+}
