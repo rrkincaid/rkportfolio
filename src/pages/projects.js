@@ -17,6 +17,27 @@ export default function projects() {
   return (
     <div>
       <h2>Past Projects</h2>
+      <br></br>
+      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
+        <div
+          style={styles.card}
+          className="card align-items-center text-center"
+        >
+          <img
+            style={styles.icecreamapp}
+            src={Image2}
+            className="card-img-top"
+          />
+          <div className="card-body">
+            <h3 className="card-title"> The Melted Cone </h3>
+            <p className="card-text">E-commerce site for selling ice cream. </p>
+          </div>
+          {/* <a>https://the-melted-cone.herokuapp.com/</a> */}
+          <div className="card-body">
+            <a className="card-link"> Link to Site </a>
+          </div>
+        </div>
+      </div>
 
       <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
         <div
@@ -46,27 +67,6 @@ export default function projects() {
           <div className="card-body">
             <h3 className="card-title"> Crypt Keepers </h3>
             <p className="card-text"> Cryptocurrency Learning Site </p>
-          </div>
-
-          <div className="card-body">
-            <a className="card-link"> Link to Site </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="d-flex flex-column my-5 col-xl-3 col-lg-4 col-md-5 col-sm-6">
-        <div
-          style={styles.card}
-          className="card align-items-center text-center"
-        >
-          <img
-            style={styles.icecreamapp}
-            src={Image2}
-            className="card-img-top"
-          />
-          <div className="card-body">
-            <h3 className="card-title"> The Melted Cone </h3>
-            <p className="card-text">E-commerce site for selling ice cream. </p>
           </div>
 
           <div className="card-body">
